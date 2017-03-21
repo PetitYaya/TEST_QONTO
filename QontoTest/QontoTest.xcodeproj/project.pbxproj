@@ -1,0 +1,896 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		105B2C897FAFC471CB54C94A /* Pods_QontoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF30C51FA02CAF185B654E1 /* Pods_QontoTest.framework */; };
+		751D90B998B8E79D92EA5ECA /* Pods_QontoTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7015A8D0AC4231D130D47393 /* Pods_QontoTestUITests.framework */; };
+		CC95C1AB1E81D2EF00CAF816 /* AlbumsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1AA1E81D2EF00CAF816 /* AlbumsListViewController.swift */; };
+		CC95C1AC1E81D2EF00CAF816 /* AlbumsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1AA1E81D2EF00CAF816 /* AlbumsListViewController.swift */; };
+		CC95C1AD1E81D2EF00CAF816 /* AlbumsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1AA1E81D2EF00CAF816 /* AlbumsListViewController.swift */; };
+		CC95C1AF1E81D32A00CAF816 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1AE1E81D32A00CAF816 /* AlbumCell.swift */; };
+		CC95C1B01E81D32A00CAF816 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1AE1E81D32A00CAF816 /* AlbumCell.swift */; };
+		CC95C1B11E81D32A00CAF816 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1AE1E81D32A00CAF816 /* AlbumCell.swift */; };
+		CC95C1B31E81D8A800CAF816 /* AlbumsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1B21E81D8A800CAF816 /* AlbumsService.swift */; };
+		CC95C1B41E81D8A800CAF816 /* AlbumsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1B21E81D8A800CAF816 /* AlbumsService.swift */; };
+		CC95C1B51E81D8A800CAF816 /* AlbumsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1B21E81D8A800CAF816 /* AlbumsService.swift */; };
+		CC95C1B71E81D8B700CAF816 /* PhotosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1B61E81D8B700CAF816 /* PhotosService.swift */; };
+		CC95C1B81E81D8B700CAF816 /* PhotosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1B61E81D8B700CAF816 /* PhotosService.swift */; };
+		CC95C1B91E81D8B700CAF816 /* PhotosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95C1B61E81D8B700CAF816 /* PhotosService.swift */; };
+		CC96ABFC1E81C71E0053370E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96ABFB1E81C71E0053370E /* AppDelegate.swift */; };
+		CC96AC011E81C71E0053370E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96ABFF1E81C71E0053370E /* Main.storyboard */; };
+		CC96AC031E81C71E0053370E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC96AC021E81C71E0053370E /* Assets.xcassets */; };
+		CC96AC061E81C71E0053370E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC96AC041E81C71E0053370E /* LaunchScreen.storyboard */; };
+		CC96AC111E81C71E0053370E /* QontoTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AC101E81C71E0053370E /* QontoTestTests.swift */; };
+		CC96AC1C1E81C71E0053370E /* QontoTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AC1B1E81C71E0053370E /* QontoTestUITests.swift */; };
+		CCD0AE311E81C83800C46371 /* UsersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE301E81C83800C46371 /* UsersListPresenter.swift */; };
+		CCD0AE321E81C83800C46371 /* UsersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE301E81C83800C46371 /* UsersListPresenter.swift */; };
+		CCD0AE331E81C83800C46371 /* UsersListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE301E81C83800C46371 /* UsersListPresenter.swift */; };
+		CCD0AE3D1E81CA8D00C46371 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE3C1E81CA8D00C46371 /* UsersService.swift */; };
+		CCD0AE3E1E81CA8D00C46371 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE3C1E81CA8D00C46371 /* UsersService.swift */; };
+		CCD0AE3F1E81CA8D00C46371 /* UsersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE3C1E81CA8D00C46371 /* UsersService.swift */; };
+		CCD0AE411E81CB1600C46371 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE401E81CB1600C46371 /* User.swift */; };
+		CCD0AE421E81CB1600C46371 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE401E81CB1600C46371 /* User.swift */; };
+		CCD0AE431E81CB1600C46371 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE401E81CB1600C46371 /* User.swift */; };
+		CCD0AE451E81CB4000C46371 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE441E81CB4000C46371 /* Company.swift */; };
+		CCD0AE461E81CB4000C46371 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE441E81CB4000C46371 /* Company.swift */; };
+		CCD0AE471E81CB4000C46371 /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE441E81CB4000C46371 /* Company.swift */; };
+		CCD0AE491E81CB5000C46371 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE481E81CB5000C46371 /* Address.swift */; };
+		CCD0AE4A1E81CB5000C46371 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE481E81CB5000C46371 /* Address.swift */; };
+		CCD0AE4B1E81CB5000C46371 /* Address.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE481E81CB5000C46371 /* Address.swift */; };
+		CCD0AE4D1E81CE1F00C46371 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE4C1E81CE1F00C46371 /* Album.swift */; };
+		CCD0AE4E1E81CE1F00C46371 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE4C1E81CE1F00C46371 /* Album.swift */; };
+		CCD0AE4F1E81CE1F00C46371 /* Album.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE4C1E81CE1F00C46371 /* Album.swift */; };
+		CCD0AE511E81CE6D00C46371 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE501E81CE6D00C46371 /* Photo.swift */; };
+		CCD0AE521E81CE6D00C46371 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE501E81CE6D00C46371 /* Photo.swift */; };
+		CCD0AE531E81CE6D00C46371 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE501E81CE6D00C46371 /* Photo.swift */; };
+		CCD0AE551E81CEC700C46371 /* ModelConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE541E81CEC700C46371 /* ModelConstants.swift */; };
+		CCD0AE561E81CEC700C46371 /* ModelConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE541E81CEC700C46371 /* ModelConstants.swift */; };
+		CCD0AE571E81CEC700C46371 /* ModelConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE541E81CEC700C46371 /* ModelConstants.swift */; };
+		CCD0AE591E81D07E00C46371 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE581E81D07E00C46371 /* UsersListViewController.swift */; };
+		CCD0AE5A1E81D07E00C46371 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE581E81D07E00C46371 /* UsersListViewController.swift */; };
+		CCD0AE5B1E81D07E00C46371 /* UsersListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE581E81D07E00C46371 /* UsersListViewController.swift */; };
+		CCD0AE5E1E81D12600C46371 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE5D1E81D12600C46371 /* UserCell.swift */; };
+		CCD0AE5F1E81D12600C46371 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE5D1E81D12600C46371 /* UserCell.swift */; };
+		CCD0AE601E81D12600C46371 /* UserCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCD0AE5D1E81D12600C46371 /* UserCell.swift */; };
+		D1B9FA671C634256C1311E8C /* Pods_QontoTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B5FC5056E71E997A828AC2 /* Pods_QontoTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CC96AC0D1E81C71E0053370E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC96ABF01E81C71E0053370E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC96ABF71E81C71E0053370E;
+			remoteInfo = QontoTest;
+		};
+		CC96AC181E81C71E0053370E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CC96ABF01E81C71E0053370E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC96ABF71E81C71E0053370E;
+			remoteInfo = QontoTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3135574DB1B8ED9870620AFF /* Pods-QontoTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QontoTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QontoTestUITests/Pods-QontoTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FC2F9185C20F6D2C8B6CFC7 /* Pods-QontoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QontoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QontoTest/Pods-QontoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		63B5FC5056E71E997A828AC2 /* Pods_QontoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QontoTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68D685FBDA387E067E8EA6D1 /* Pods-QontoTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QontoTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QontoTestTests/Pods-QontoTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7015A8D0AC4231D130D47393 /* Pods_QontoTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QontoTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AE2D8A1BB5D54D9D7C3228A /* Pods-QontoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QontoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-QontoTest/Pods-QontoTest.release.xcconfig"; sourceTree = "<group>"; };
+		9AF30C51FA02CAF185B654E1 /* Pods_QontoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QontoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9643C544BF3EDA7A132331A /* Pods-QontoTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QontoTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QontoTestTests/Pods-QontoTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		CC95C1AA1E81D2EF00CAF816 /* AlbumsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumsListViewController.swift; path = ViewControllers/AlbumsListViewController.swift; sourceTree = "<group>"; };
+		CC95C1AE1E81D32A00CAF816 /* AlbumCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumCell.swift; path = Views/Cells/AlbumCell.swift; sourceTree = "<group>"; };
+		CC95C1B21E81D8A800CAF816 /* AlbumsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlbumsService.swift; path = Services/AlbumsService.swift; sourceTree = "<group>"; };
+		CC95C1B61E81D8B700CAF816 /* PhotosService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotosService.swift; path = Services/PhotosService.swift; sourceTree = "<group>"; };
+		CC96ABF81E81C71E0053370E /* QontoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QontoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC96ABFB1E81C71E0053370E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CC96AC001E81C71E0053370E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CC96AC021E81C71E0053370E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CC96AC051E81C71E0053370E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CC96AC071E81C71E0053370E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC96AC0C1E81C71E0053370E /* QontoTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QontoTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC96AC101E81C71E0053370E /* QontoTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QontoTestTests.swift; sourceTree = "<group>"; };
+		CC96AC121E81C71E0053370E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC96AC171E81C71E0053370E /* QontoTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QontoTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC96AC1B1E81C71E0053370E /* QontoTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QontoTestUITests.swift; sourceTree = "<group>"; };
+		CC96AC1D1E81C71E0053370E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCD0AE301E81C83800C46371 /* UsersListPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersListPresenter.swift; path = Presenters/UsersListPresenter.swift; sourceTree = "<group>"; };
+		CCD0AE3C1E81CA8D00C46371 /* UsersService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersService.swift; path = Services/UsersService.swift; sourceTree = "<group>"; };
+		CCD0AE401E81CB1600C46371 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = User.swift; path = Models/User.swift; sourceTree = "<group>"; };
+		CCD0AE441E81CB4000C46371 /* Company.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Company.swift; path = Models/Company.swift; sourceTree = "<group>"; };
+		CCD0AE481E81CB5000C46371 /* Address.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Address.swift; path = Models/Address.swift; sourceTree = "<group>"; };
+		CCD0AE4C1E81CE1F00C46371 /* Album.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Album.swift; path = Models/Album.swift; sourceTree = "<group>"; };
+		CCD0AE501E81CE6D00C46371 /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Photo.swift; path = Models/Photo.swift; sourceTree = "<group>"; };
+		CCD0AE541E81CEC700C46371 /* ModelConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ModelConstants.swift; path = Models/ModelConstants.swift; sourceTree = "<group>"; };
+		CCD0AE581E81D07E00C46371 /* UsersListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UsersListViewController.swift; path = ViewControllers/UsersListViewController.swift; sourceTree = "<group>"; };
+		CCD0AE5D1E81D12600C46371 /* UserCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UserCell.swift; path = Views/Cells/UserCell.swift; sourceTree = "<group>"; };
+		DC30F9E328F7486576D53FB0 /* Pods-QontoTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QontoTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QontoTestUITests/Pods-QontoTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CC96ABF51E81C71E0053370E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105B2C897FAFC471CB54C94A /* Pods_QontoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96AC091E81C71E0053370E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1B9FA671C634256C1311E8C /* Pods_QontoTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96AC141E81C71E0053370E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				751D90B998B8E79D92EA5ECA /* Pods_QontoTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B4ADAF5C2EED9580C9E6B1E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5FC2F9185C20F6D2C8B6CFC7 /* Pods-QontoTest.debug.xcconfig */,
+				7AE2D8A1BB5D54D9D7C3228A /* Pods-QontoTest.release.xcconfig */,
+				68D685FBDA387E067E8EA6D1 /* Pods-QontoTestTests.debug.xcconfig */,
+				B9643C544BF3EDA7A132331A /* Pods-QontoTestTests.release.xcconfig */,
+				DC30F9E328F7486576D53FB0 /* Pods-QontoTestUITests.debug.xcconfig */,
+				3135574DB1B8ED9870620AFF /* Pods-QontoTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC96ABEF1E81C71E0053370E = {
+			isa = PBXGroup;
+			children = (
+				CC96ABFA1E81C71E0053370E /* QontoTest */,
+				CC96AC0F1E81C71E0053370E /* QontoTestTests */,
+				CC96AC1A1E81C71E0053370E /* QontoTestUITests */,
+				CC96ABF91E81C71E0053370E /* Products */,
+				0B4ADAF5C2EED9580C9E6B1E /* Pods */,
+				FE47D5A1DC94BA2C10D54C24 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CC96ABF91E81C71E0053370E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CC96ABF81E81C71E0053370E /* QontoTest.app */,
+				CC96AC0C1E81C71E0053370E /* QontoTestTests.xctest */,
+				CC96AC171E81C71E0053370E /* QontoTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CC96ABFA1E81C71E0053370E /* QontoTest */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0AE2B1E81C7CE00C46371 /* Managers */,
+				CCD0AE2A1E81C7BC00C46371 /* Presenters */,
+				CCD0AE291E81C7B700C46371 /* Services */,
+				CCD0AE281E81C7AE00C46371 /* ViewControllers */,
+				CCD0AE271E81C7A000C46371 /* Views */,
+				CCD0AE261E81C79A00C46371 /* Models */,
+				CC96ABFB1E81C71E0053370E /* AppDelegate.swift */,
+				CC96ABFF1E81C71E0053370E /* Main.storyboard */,
+				CC96AC021E81C71E0053370E /* Assets.xcassets */,
+				CC96AC041E81C71E0053370E /* LaunchScreen.storyboard */,
+				CC96AC071E81C71E0053370E /* Info.plist */,
+			);
+			path = QontoTest;
+			sourceTree = "<group>";
+		};
+		CC96AC0F1E81C71E0053370E /* QontoTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				CC96AC101E81C71E0053370E /* QontoTestTests.swift */,
+				CC96AC121E81C71E0053370E /* Info.plist */,
+			);
+			path = QontoTestTests;
+			sourceTree = "<group>";
+		};
+		CC96AC1A1E81C71E0053370E /* QontoTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CC96AC1B1E81C71E0053370E /* QontoTestUITests.swift */,
+				CC96AC1D1E81C71E0053370E /* Info.plist */,
+			);
+			path = QontoTestUITests;
+			sourceTree = "<group>";
+		};
+		CCD0AE261E81C79A00C46371 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0AE541E81CEC700C46371 /* ModelConstants.swift */,
+				CCD0AE401E81CB1600C46371 /* User.swift */,
+				CCD0AE441E81CB4000C46371 /* Company.swift */,
+				CCD0AE481E81CB5000C46371 /* Address.swift */,
+				CCD0AE4C1E81CE1F00C46371 /* Album.swift */,
+				CCD0AE501E81CE6D00C46371 /* Photo.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CCD0AE271E81C7A000C46371 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0AE5C1E81D0FC00C46371 /* Cells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		CCD0AE281E81C7AE00C46371 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0AE581E81D07E00C46371 /* UsersListViewController.swift */,
+				CC95C1AA1E81D2EF00CAF816 /* AlbumsListViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CCD0AE291E81C7B700C46371 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0AE3C1E81CA8D00C46371 /* UsersService.swift */,
+				CC95C1B21E81D8A800CAF816 /* AlbumsService.swift */,
+				CC95C1B61E81D8B700CAF816 /* PhotosService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		CCD0AE2A1E81C7BC00C46371 /* Presenters */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0AE301E81C83800C46371 /* UsersListPresenter.swift */,
+			);
+			name = Presenters;
+			sourceTree = "<group>";
+		};
+		CCD0AE2B1E81C7CE00C46371 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		CCD0AE5C1E81D0FC00C46371 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				CCD0AE5D1E81D12600C46371 /* UserCell.swift */,
+				CC95C1AE1E81D32A00CAF816 /* AlbumCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		FE47D5A1DC94BA2C10D54C24 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF30C51FA02CAF185B654E1 /* Pods_QontoTest.framework */,
+				63B5FC5056E71E997A828AC2 /* Pods_QontoTestTests.framework */,
+				7015A8D0AC4231D130D47393 /* Pods_QontoTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CC96ABF71E81C71E0053370E /* QontoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96AC201E81C71E0053370E /* Build configuration list for PBXNativeTarget "QontoTest" */;
+			buildPhases = (
+				431101C62BCFBFB7EC500A00 /* [CP] Check Pods Manifest.lock */,
+				CC96ABF41E81C71E0053370E /* Sources */,
+				CC96ABF51E81C71E0053370E /* Frameworks */,
+				CC96ABF61E81C71E0053370E /* Resources */,
+				748FC864810918B5A48D46C4 /* [CP] Embed Pods Frameworks */,
+				4A969E9B6DA4A9A696B77168 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QontoTest;
+			productName = QontoTest;
+			productReference = CC96ABF81E81C71E0053370E /* QontoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CC96AC0B1E81C71E0053370E /* QontoTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96AC231E81C71E0053370E /* Build configuration list for PBXNativeTarget "QontoTestTests" */;
+			buildPhases = (
+				FB771F31AF6C6B7A9E9750E1 /* [CP] Check Pods Manifest.lock */,
+				CC96AC081E81C71E0053370E /* Sources */,
+				CC96AC091E81C71E0053370E /* Frameworks */,
+				CC96AC0A1E81C71E0053370E /* Resources */,
+				649ADE6E6E7932BF51DEBBB7 /* [CP] Embed Pods Frameworks */,
+				68E413298FF6CD676E3CD44D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC96AC0E1E81C71E0053370E /* PBXTargetDependency */,
+			);
+			name = QontoTestTests;
+			productName = QontoTestTests;
+			productReference = CC96AC0C1E81C71E0053370E /* QontoTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CC96AC161E81C71E0053370E /* QontoTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CC96AC261E81C71E0053370E /* Build configuration list for PBXNativeTarget "QontoTestUITests" */;
+			buildPhases = (
+				6F8CCBE6C9F01ADA422B9462 /* [CP] Check Pods Manifest.lock */,
+				CC96AC131E81C71E0053370E /* Sources */,
+				CC96AC141E81C71E0053370E /* Frameworks */,
+				CC96AC151E81C71E0053370E /* Resources */,
+				19BB4EDD3B7C172BDDB1570B /* [CP] Embed Pods Frameworks */,
+				5646EA7F9ECD09B6E33C1D15 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CC96AC191E81C71E0053370E /* PBXTargetDependency */,
+			);
+			name = QontoTestUITests;
+			productName = QontoTestUITests;
+			productReference = CC96AC171E81C71E0053370E /* QontoTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CC96ABF01E81C71E0053370E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Yacine YAZMAN";
+				TargetAttributes = {
+					CC96ABF71E81C71E0053370E = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					CC96AC0B1E81C71E0053370E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32HFK829PU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC96ABF71E81C71E0053370E;
+					};
+					CC96AC161E81C71E0053370E = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 32HFK829PU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CC96ABF71E81C71E0053370E;
+					};
+				};
+			};
+			buildConfigurationList = CC96ABF31E81C71E0053370E /* Build configuration list for PBXProject "QontoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CC96ABEF1E81C71E0053370E;
+			productRefGroup = CC96ABF91E81C71E0053370E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CC96ABF71E81C71E0053370E /* QontoTest */,
+				CC96AC0B1E81C71E0053370E /* QontoTestTests */,
+				CC96AC161E81C71E0053370E /* QontoTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CC96ABF61E81C71E0053370E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC96AC061E81C71E0053370E /* LaunchScreen.storyboard in Resources */,
+				CC96AC031E81C71E0053370E /* Assets.xcassets in Resources */,
+				CC96AC011E81C71E0053370E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96AC0A1E81C71E0053370E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96AC151E81C71E0053370E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19BB4EDD3B7C172BDDB1570B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QontoTestUITests/Pods-QontoTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		431101C62BCFBFB7EC500A00 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4A969E9B6DA4A9A696B77168 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QontoTest/Pods-QontoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5646EA7F9ECD09B6E33C1D15 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QontoTestUITests/Pods-QontoTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649ADE6E6E7932BF51DEBBB7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QontoTestTests/Pods-QontoTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68E413298FF6CD676E3CD44D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QontoTestTests/Pods-QontoTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F8CCBE6C9F01ADA422B9462 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		748FC864810918B5A48D46C4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QontoTest/Pods-QontoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB771F31AF6C6B7A9E9750E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC96ABF41E81C71E0053370E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD0AE3D1E81CA8D00C46371 /* UsersService.swift in Sources */,
+				CC95C1AF1E81D32A00CAF816 /* AlbumCell.swift in Sources */,
+				CCD0AE551E81CEC700C46371 /* ModelConstants.swift in Sources */,
+				CCD0AE311E81C83800C46371 /* UsersListPresenter.swift in Sources */,
+				CCD0AE511E81CE6D00C46371 /* Photo.swift in Sources */,
+				CC95C1AB1E81D2EF00CAF816 /* AlbumsListViewController.swift in Sources */,
+				CCD0AE411E81CB1600C46371 /* User.swift in Sources */,
+				CC95C1B71E81D8B700CAF816 /* PhotosService.swift in Sources */,
+				CC96ABFC1E81C71E0053370E /* AppDelegate.swift in Sources */,
+				CCD0AE451E81CB4000C46371 /* Company.swift in Sources */,
+				CC95C1B31E81D8A800CAF816 /* AlbumsService.swift in Sources */,
+				CCD0AE591E81D07E00C46371 /* UsersListViewController.swift in Sources */,
+				CCD0AE491E81CB5000C46371 /* Address.swift in Sources */,
+				CCD0AE5E1E81D12600C46371 /* UserCell.swift in Sources */,
+				CCD0AE4D1E81CE1F00C46371 /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96AC081E81C71E0053370E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD0AE3E1E81CA8D00C46371 /* UsersService.swift in Sources */,
+				CC95C1B01E81D32A00CAF816 /* AlbumCell.swift in Sources */,
+				CCD0AE561E81CEC700C46371 /* ModelConstants.swift in Sources */,
+				CCD0AE321E81C83800C46371 /* UsersListPresenter.swift in Sources */,
+				CCD0AE521E81CE6D00C46371 /* Photo.swift in Sources */,
+				CC95C1AC1E81D2EF00CAF816 /* AlbumsListViewController.swift in Sources */,
+				CCD0AE421E81CB1600C46371 /* User.swift in Sources */,
+				CC95C1B81E81D8B700CAF816 /* PhotosService.swift in Sources */,
+				CC96AC111E81C71E0053370E /* QontoTestTests.swift in Sources */,
+				CCD0AE461E81CB4000C46371 /* Company.swift in Sources */,
+				CC95C1B41E81D8A800CAF816 /* AlbumsService.swift in Sources */,
+				CCD0AE5A1E81D07E00C46371 /* UsersListViewController.swift in Sources */,
+				CCD0AE4A1E81CB5000C46371 /* Address.swift in Sources */,
+				CCD0AE5F1E81D12600C46371 /* UserCell.swift in Sources */,
+				CCD0AE4E1E81CE1F00C46371 /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC96AC131E81C71E0053370E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD0AE3F1E81CA8D00C46371 /* UsersService.swift in Sources */,
+				CC95C1B11E81D32A00CAF816 /* AlbumCell.swift in Sources */,
+				CCD0AE571E81CEC700C46371 /* ModelConstants.swift in Sources */,
+				CCD0AE331E81C83800C46371 /* UsersListPresenter.swift in Sources */,
+				CCD0AE531E81CE6D00C46371 /* Photo.swift in Sources */,
+				CC95C1AD1E81D2EF00CAF816 /* AlbumsListViewController.swift in Sources */,
+				CCD0AE431E81CB1600C46371 /* User.swift in Sources */,
+				CC95C1B91E81D8B700CAF816 /* PhotosService.swift in Sources */,
+				CC96AC1C1E81C71E0053370E /* QontoTestUITests.swift in Sources */,
+				CCD0AE471E81CB4000C46371 /* Company.swift in Sources */,
+				CC95C1B51E81D8A800CAF816 /* AlbumsService.swift in Sources */,
+				CCD0AE5B1E81D07E00C46371 /* UsersListViewController.swift in Sources */,
+				CCD0AE4B1E81CB5000C46371 /* Address.swift in Sources */,
+				CCD0AE601E81D12600C46371 /* UserCell.swift in Sources */,
+				CCD0AE4F1E81CE1F00C46371 /* Album.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CC96AC0E1E81C71E0053370E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC96ABF71E81C71E0053370E /* QontoTest */;
+			targetProxy = CC96AC0D1E81C71E0053370E /* PBXContainerItemProxy */;
+		};
+		CC96AC191E81C71E0053370E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CC96ABF71E81C71E0053370E /* QontoTest */;
+			targetProxy = CC96AC181E81C71E0053370E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CC96ABFF1E81C71E0053370E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC96AC001E81C71E0053370E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CC96AC041E81C71E0053370E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CC96AC051E81C71E0053370E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CC96AC1E1E81C71E0053370E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CC96AC1F1E81C71E0053370E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CC96AC211E81C71E0053370E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC2F9185C20F6D2C8B6CFC7 /* Pods-QontoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QontoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qonto.test.QontoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CC96AC221E81C71E0053370E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7AE2D8A1BB5D54D9D7C3228A /* Pods-QontoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = QontoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qonto.test.QontoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CC96AC241E81C71E0053370E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68D685FBDA387E067E8EA6D1 /* Pods-QontoTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 32HFK829PU;
+				INFOPLIST_FILE = QontoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qonto.test.QontoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QontoTest.app/QontoTest";
+			};
+			name = Debug;
+		};
+		CC96AC251E81C71E0053370E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9643C544BF3EDA7A132331A /* Pods-QontoTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 32HFK829PU;
+				INFOPLIST_FILE = QontoTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qonto.test.QontoTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QontoTest.app/QontoTest";
+			};
+			name = Release;
+		};
+		CC96AC271E81C71E0053370E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC30F9E328F7486576D53FB0 /* Pods-QontoTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 32HFK829PU;
+				INFOPLIST_FILE = QontoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qonto.test.QontoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QontoTest;
+			};
+			name = Debug;
+		};
+		CC96AC281E81C71E0053370E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3135574DB1B8ED9870620AFF /* Pods-QontoTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 32HFK829PU;
+				INFOPLIST_FILE = QontoTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.qonto.test.QontoTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = QontoTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CC96ABF31E81C71E0053370E /* Build configuration list for PBXProject "QontoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96AC1E1E81C71E0053370E /* Debug */,
+				CC96AC1F1E81C71E0053370E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96AC201E81C71E0053370E /* Build configuration list for PBXNativeTarget "QontoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96AC211E81C71E0053370E /* Debug */,
+				CC96AC221E81C71E0053370E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96AC231E81C71E0053370E /* Build configuration list for PBXNativeTarget "QontoTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96AC241E81C71E0053370E /* Debug */,
+				CC96AC251E81C71E0053370E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CC96AC261E81C71E0053370E /* Build configuration list for PBXNativeTarget "QontoTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC96AC271E81C71E0053370E /* Debug */,
+				CC96AC281E81C71E0053370E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CC96ABF01E81C71E0053370E /* Project object */;
+}

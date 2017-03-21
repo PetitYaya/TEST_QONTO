@@ -1,0 +1,19 @@
+# Uncomment this line to define a global platform for your project
+platform :ios, '8.0'
+# Uncomment this line if you're using Swift
+use_frameworks!
+
+pod 'Alamofire', '~> 4.4'               #Swift - Used to handle network communication layer
+pod 'SwiftyJSON'                        #Swift - Used to handle network datas and binding directly into a full BO
+
+target 'QontoTest' do
+end
+
+target 'QontoTestTests' do
+
+end
+
+target 'QontoTestUITests' do
+
+end
+
